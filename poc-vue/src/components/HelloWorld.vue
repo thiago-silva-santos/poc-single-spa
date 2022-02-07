@@ -40,7 +40,7 @@ export default {
     msg: String
   },
   methods: {
-      changePage: function(pagina) {
+      changePage(pagina) {
         singleSpa.navigateToUrl(pagina)
       }
   }

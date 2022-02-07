@@ -6,7 +6,7 @@ registerApplication({
     System.import(
       "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js"
     ),
-  activeWhen: ["/app1"], 
+  activeWhen: ["/app1"]
 });
 
 registerApplication({
