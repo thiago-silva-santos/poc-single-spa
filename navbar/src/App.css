@@ -1,0 +1,55 @@
+
+.navbar {
+    background-color: aqua;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.navbarContainer {
+    display: flex;
+    height: 50px;
+
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    width: 120px;
+    
+}
+button {
+    font-family: Arial;
+    font-size: 14px;
+}
+.buttonLogo {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.buttonLogo:hover {
+    background-color: brown;
+    color: aliceblue;
+    height: 50px;
+    width: 120px;
+
+}
+.links {
+    display: flex;
+}
+.buttonLinks {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+}
+.buttonLinks:hover {
+    background-color: brown;
+    color: aliceblue;
+}

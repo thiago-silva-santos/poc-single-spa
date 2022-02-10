@@ -1,5 +1,6 @@
 import * as singleSpa from 'single-spa'
 import React, { useState } from 'react'
+import './App.css'
 
 const App = () => {
 
@@ -12,21 +13,24 @@ const App = () => {
      }
 
      return (
-          <div>
-               <h1>Esse é o app em React</h1>
-               <p>Contador: {count} </p>
-               <button onClick={increment}>
-                    Aumentar
-               </button>
-               <button onClick={decrement}>
-                    Diminuir
-               </button>
-               <button onClick={() => changePage('app3')}>
-                    ir para vue
-               </button>
-               <button onClick={() => changePage('app1')}>
-                    voltar
-               </button>
+          <div className='main'>
+               <section className='appReact'>
+                    <div className='referencias'>
+                         <h1>Esse é o app em React</h1>
+                         <p>Contador: {count} </p>
+                    </div>
+
+                    <div className='buttons'>
+                         <button onClick={increment}>
+                              Aumentar
+                         </button>
+                         <button onClick={decrement}>
+                              Diminuir
+                         </button>
+                    </div>
+
+               </section>
+
           </div>
      )
 }
