@@ -15,6 +15,10 @@ const App = () => {
             rota: 'app2-vue'
         },
         {
+            title: 'Angular',
+            rota: 'poc-angular'
+        },
+        {
             title: 'Voltar',
             rota: '/'
         },

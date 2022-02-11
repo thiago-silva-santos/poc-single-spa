@@ -1,5 +1,5 @@
 {
-  "name": "@mfe/poc-react",
+  "name": "poc-react",
   "scripts": {
     "start": "webpack serve",
     "start:standalone": "webpack serve --env standalone",

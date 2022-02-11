@@ -3,8 +3,8 @@
     <img alt="Vue logo" src="../assets/logo.png">
 
 
-    <form @submit.prevent="add()">
-      <input v-model="task" type="text">
+    <form @submit.prevent="add()" class="formVue">
+      <input v-model="task" type="text" class="inputVue">
       <button class="add" type="submit"> Adicionar</button>
     </form>
 
@@ -55,6 +55,15 @@ export default {
     align-items: center;
     
   }
+  .formVue {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .inputVue {
+    height: 20px;
+  }
   .tasksContainer {
     margin-top: 50px;
   }
@@ -66,6 +75,19 @@ export default {
   }
 
   .add {
-    margin-left: 2px;
+    margin-left: 10px;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgb(0, 255, 136);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border: none;
   }
 </style>

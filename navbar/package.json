@@ -1,5 +1,5 @@
 {
-  "name": "@mfe/navbar",
+  "name": "navbar",
   "scripts": {
     "start": "webpack serve",
     "start:standalone": "webpack serve --env standalone",
