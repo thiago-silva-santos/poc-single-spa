@@ -2,9 +2,11 @@ import { h, createApp } from 'vue';
 import singleSpaVue from 'single-spa-vue';
 
 import App from './App.vue';
+import router from './router'
 
 const vueLifecycles = singleSpaVue({
   createApp,
+  router,
   appOptions: {
     render() {
       return h(App, {

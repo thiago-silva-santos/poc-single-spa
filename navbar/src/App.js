@@ -8,11 +8,11 @@ const App = () => {
     const links = [
         {
             title: 'React',
-            rota: 'app1-react'
+            rota: 'app-react'
         },
         {
             title: 'Vue',
-            rota: 'app2-vue'
+            rota: 'app-vue'
         },
         {
             title: 'Angular',
